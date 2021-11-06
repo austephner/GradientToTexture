@@ -24,7 +24,11 @@ This code shows how to manipulate the pixels of a `Texture2D` by evaluating the 
 - Noise based
 
 # Usage
-#### Basic
+#### Automatic
+You can add the `GradientDisplayBehaviour` to a `GameObject` that has an `Image` component on it. 
+![GDB](https://i.imgur.com/wQcC4X4.png)
+
+#### Manual
 Call `GradientToTexture.CreateSprite(...)` to convert a gradient into a `Sprite`. 
 ```c#
 // (1) Gather needed components
@@ -42,9 +46,6 @@ image.sprite = sprite;
 See these files:
 - GradientToTexture.cs
 - GradientDisplayBehaviour.cs
-
-#### Advanced
-The implementation in `GradientToTexture` can be expanded upon or picked apart to create new return-type textures or additional algorithms for setting image pixels. This API is very simple!
 
 # Pitfalls
 - Updating the size of the texture may require you to recalculate the gradient image. 
