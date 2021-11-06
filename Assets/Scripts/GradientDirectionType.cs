@@ -5,8 +5,8 @@
     VerticalTopToBottom,
     VerticalBottomToTop,
     // todo: EVERY TYPE BELOW THIS LINE IS NOT YET IMPLEMENTED!
-    DiagonalTopLeftToBottomRight,
-    DiagonalTopRightToBottomLeft,
-    DiagonalBottomLeftToTopRight,
-    DiagonalBottomRightToTopLeft
+    // DiagonalTopLeftToBottomRight,
+    // DiagonalTopRightToBottomLeft,
+    // DiagonalBottomLeftToTopRight,
+    // DiagonalBottomRightToTopLeft
 }
